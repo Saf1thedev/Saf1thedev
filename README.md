@@ -1,50 +1,28 @@
-# Hi, I'm Safouane Latrache 👋
+# Safouane Latrache
 
-Full-stack developer from Morocco 🇲🇦, building modern web applications with React and Node.js.
-I'm open to freelance projects and happy to talk about yours.
+Full-stack developer in Morocco. Building web apps with Next.js, TypeScript & Supabase.
 
-## Tech stack
+I build web applications with Next.js, React and Supabase/PostgreSQL.
+Focused on App Router, auth + RLS, and Tailwind UI that ships.
 
-`HTML5` · `CSS3` · `JavaScript` · `React` · `Node.js` · `Express` · `Git & GitHub` · `Docker`
+## Currently
 
-## Featured projects
+- Building Saf1 AI, a Next.js + Supabase studio for AI image and video generation
+- Learning Supabase migrations, RLS policies, and Next.js 16 patterns
 
-My personal portfolio website is in progress. More projects are coming soon.
+Stack: TypeScript, React, Next.js, Supabase/PostgreSQL, Tailwind CSS, Git
 
-## Languages
+## Featured
 
-English · Français · العربية
+- [saf1](https://github.com/Saf1thedev/saf1) — Next.js + Supabase studio for AI image/video generation (private, in progress)
+- [Saf1thedev](https://github.com/Saf1thedev/Saf1thedev) — This profile README, minimal setup with auto-updated recents
 
----
+## Recent projects
 
-<details>
-<summary><strong>🇫🇷 Version française</strong></summary>
+<!-- RECENT:START -->
+- No public projects yet.
+<!-- RECENT:END -->
 
-### Bonjour, je suis Safouane Latrache 👋
+Contact: open an issue on any repo, or add your links here.
 
-Développeur full-stack basé au Maroc 🇲🇦, je conçois des applications web modernes avec React et Node.js.
-Je suis ouvert aux projets freelance et ravi d'échanger sur les vôtres.
 
-**Technologies :** HTML5 · CSS3 · JavaScript · React · Node.js · Express · Git & GitHub · Docker
-
-**Projets :** mon site portfolio est en cours de réalisation. D'autres projets arrivent bientôt.
-
-</details>
-
-<details>
-<summary><strong>🇲🇦 النسخة العربية</strong></summary>
-
-<div dir="rtl">
-
-### مرحباً، أنا صفوان لتراش 👋
-
-مطوّر ويب متكامل (Full-Stack) من المغرب 🇲🇦، أبني تطبيقات ويب حديثة باستخدام React وNode.js.
-أنا متاح لمشاريع العمل الحر، ويسعدني الحديث عن مشروعك.
-
-**التقنيات:** HTML5 · CSS3 · JavaScript · React · Node.js · Express · Git & GitHub · Docker
-
-**المشاريع:** موقعي الشخصي (Portfolio) قيد الإنجاز، ومشاريع أخرى قريباً.
-
-</div>
-
-</details>
