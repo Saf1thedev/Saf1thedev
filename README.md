@@ -1,32 +1,44 @@
+## Building in public
+
+<div align="center">
+
 # Safouane Latrache
 
-Full-stack developer in Morocco. Building web apps with Next.js, TypeScript & Supabase.
+> Technical founder
 
-I build web applications with Next.js, React and Supabase/PostgreSQL.
-Focused on App Router, auth + RLS, and Tailwind UI that ships.
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="Saf1thedev's GitHub profile" src="dark_mode.svg" />
-</picture>
-## Currently
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/hero?username=saf1thedev&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F318455454%3Fu%3D106080e5c323ad8b8d072b89458974447a4907a7%26v%3D4" alt="saf1thedev hero visual" />
+</p>
 
-- Building Saf1 AI, a Next.js + Supabase studio for AI image and video generation
-- Learning Supabase migrations, RLS policies, and Next.js 16 patterns
+</div>
 
-Stack: TypeScript, React, Next.js, Supabase/PostgreSQL, Tailwind CSS, Git
+## The point of view
 
-## Featured
+> full-stack software architect
 
-- [saf1](https://github.com/Saf1thedev/saf1) — Next.js + Supabase studio for AI image/video generation (private, in progress)
-- [Saf1thedev](https://github.com/Saf1thedev/Saf1thedev) — This profile README, minimal setup with auto-updated recents
+- 📍 Based in **Morocco**
+- 👥 **0** followers · **0** following
 
-## Recent projects
+*Small, useful work over vague claims.*
 
-<!-- RECENT:START -->
-- No public projects yet.
-<!-- RECENT:END -->
+## Products and proof
 
-Contact: open an issue on any repo, or add your links here.
+<table>
+<tr><td width="32%"><b><a href="https://github.com/Saf1thedev/Saf1thedev">Saf1thedev</a></b></td><td>My GitHub profile README<br/><sub>open source · 0 stars</sub></td></tr>
+</table>
 
+## Momentum
 
+<table>
+<tr><td align="center"><b>1</b><br/><sub>repos</sub></td><td align="center"><b>0</b><br/><sub>stars</sub></td><td align="center"><b>2</b><br/><sub>contributions</sub></td></tr>
+</table>
+
+## Start a conversation
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=saf1thedev&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F318455454%3Fu%3D106080e5c323ad8b8d072b89458974447a4907a7%26v%3D4" alt="saf1thedev social visual" />
+</p>
+
+<a href="https://github.com/saf1thedev">GitHub</a>
+
+<p align="center"><sub>Safouane Latrache · Founder profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
