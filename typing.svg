@@ -1,0 +1,27 @@
+<svg width="600" height="40" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Building web apps with Next.js, TypeScript & Supabase">
+  <defs>
+    <style>
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      @keyframes blink {
+        50% { opacity: 0 }
+      }
+      .typing-text {
+        animation: typing 3.5s steps(40, end) infinite, blink 1s step-end infinite;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    </style>
+  </defs>
+  <text x="50%" y="26" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif" font-size="16" fill="#cc997f" class="typing-text">
+    Building web apps with Next.js, TypeScript & Supabase
+  </text>
+  <!-- Light mode fallback -->
+  <style>
+    @media (prefers-color-scheme: light) {
+      .typing-text { fill: #cd622b; }
+    }
+  </style>
+</svg>

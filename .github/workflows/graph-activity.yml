@@ -1,0 +1,61 @@
+name: Daily Activity Graph
+on:
+  push:
+    branches: [ main ]
+jobs:
+  generate-graph:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Generate graph
+      run: |
+        python -c "
+import os
+import sys
+import base64
+import json
+import requests
+from datetime import datetime, timedelta
+
+# Load graph data from GitHub
+graph_data_url = 'https://api.github.com/repos/Saf1thedev/Saf1thedev/contributors'
+graph_data = requests.get(graph_data_url).json()
+
+# Load graph template from file
+graph_template_file = 'graph-template.svg'
+with open(graph_template_file, 'r') as f:
+    graph_template = f.read()
+
+# Generate graph data
+graph_data_dict = {}
+for contributor in graph_data:
+    contributor_login = contributor['login']
+    contributor_contributions = contributor['contributions']
+    graph_data_dict[contributor_login] = contributor_contributions
+
+# Render graph
+graph_rendered = graph_template
+for contributor_login, contributor_contributions in graph_data_dict.items():
+    graph_rendered = graph_rendered.replace('{{ contributor_login }}', contributor_login)
+    graph_rendered = graph_rendered.replace('{{ contributor_contributions }}', str(contributor_contributions))
+
+# Save graph to file
+graph_file = 'activity-graph.svg'
+with open(graph_file, 'w') as f:
+    f.write(graph_rendered)
+
+# Upload graph to GitHub
+graph_upload_url = 'https://api.github.com/repos/Saf1thedev/Saf1thedev/contents/graphs/activity-graph.svg'
+graph_upload_data = {'message': 'Update activity graph', 'content': base64.b64encode(open(graph_file, 'rb').read()).decode()}
+requests.patch(graph_upload_url, json=graph_upload_data)
+
+        "
+    - name: Upload graph
+      uses: actions/upload-artifact@v2
+      with:
+        name: activity-graph.svg
+        path: activity-graph.svg
+
+    - name: Delete graph file
+      run: rm activity-graph.svg
