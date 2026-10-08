@@ -4,7 +4,11 @@ Full-stack developer in Morocco. Building web apps with Next.js, TypeScript & Su
 
 I build web applications with Next.js, React and Supabase/PostgreSQL.
 Focused on App Router, auth + RLS, and Tailwind UI that ships.
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="Saf1thedev's GitHub profile" src="dark_mode.svg" />
+</picture>
 ## Currently
 
 - Building Saf1 AI, a Next.js + Supabase studio for AI image and video generation
