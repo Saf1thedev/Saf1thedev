@@ -1,3 +1,18 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+  <img alt="Safouane Latrache — Full-Stack Developer, Morocco" src="assets/banner-light.svg" />
+</picture>
+
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.fr.md">Français</a> ·
+  <a href="README.ar.md">العربية</a>
+</p>
+
+<p align="center">
+  <img src="assets/typing.svg" alt="Building web apps with Next.js, TypeScript & Supabase" />
+</p>
+
 # Safouane Latrache
 
 Full-stack developer in Morocco. Building web apps with Next.js, TypeScript & Supabase.
@@ -20,7 +35,7 @@ React · Next.js · Supabase · Tailwind CSS · PostgreSQL
 
 TypeScript toolkit for Morocco: phone validation, public holidays, administrative regions, MAD formatting. Zero runtime dependencies. Works in Node, browsers, and edge runtimes.
 
-[Live docs & playground](https://morocco-kit.vercel.app) · [API](https://morocco-kit.vercel.app/api/v1) · [GitHub](https://github.com/Saf1thedev/morocco-kit)
+[GitHub](https://github.com/Saf1thedev/morocco-kit) · [GitHub Release](https://github.com/Saf1thedev/morocco-kit/releases/tag/v0.1.0)
 
 ## Activity
 
@@ -47,20 +62,4 @@ No public social links yet. Open an issue on any repo to start a conversation. <
 
 ---
 
-<sub>Safouane Latrache · Morocco · Last updated: 2026-10-08</sub>
-
-## Momentum
-
-<table>
-<tr><td align="center"><b>1</b><br/><sub>repos</sub></td><td align="center"><b>0</b><br/><sub>stars</sub></td><td align="center"><b>2</b><br/><sub>contributions</sub></td></tr>
-</table>
-
-## Start a conversation
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=saf1thedev&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F318455454%3Fu%3D106080e5c323ad8b8d072b89458974447a4907a7%26v%3D4" alt="saf1thedev social visual" />
-</p>
-
-<a href="https://github.com/saf1thedev">GitHub</a>
-
-<p align="center"><sub>Safouane Latrache · Founder profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+<sub>Safouane Latrache · Morocco</sub>
