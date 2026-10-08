@@ -11,11 +11,7 @@ Focused on App Router, auth + RLS, and Tailwind UI that ships.
 - Learning Supabase migrations, RLS policies, and Next.js 16 patterns
 
 Stack: TypeScript, React, Next.js, Supabase/PostgreSQL, Tailwind CSS, Git
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="Saf1thedev's GitHub profile" src="dark_mode.svg" />
-</picture>
+
 ## Featured
 
 - [saf1](https://github.com/Saf1thedev/saf1) — Next.js + Supabase studio for AI image/video generation (private, in progress)
