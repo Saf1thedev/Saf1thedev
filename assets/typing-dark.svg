@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-label="Full-stack developer in Morocco. Next.js · TypeScript · Supabase. Building morocco-kit, open-source tools for Morocco">
+<title>Full-stack developer in Morocco. Next.js · TypeScript · Supabase. Building morocco-kit, open-source tools for Morocco</title>
+<style>
+.l{opacity:0;animation:cycle 12s infinite}
+.l2{animation-delay:4s}
+.l3{animation-delay:8s}
+@keyframes cycle{0%{opacity:0;transform:translateY(8px)}4%{opacity:1;transform:translateY(0)}30%{opacity:1;transform:translateY(0)}34%{opacity:0;transform:translateY(-8px)}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){.l{animation:none}.l1{opacity:1}}
+</style>
+<text class="l l1" x="2" y="34" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="22" font-weight="600" fill="#3FB8A0">Full-stack developer in Morocco</text>
+<text class="l l2" x="2" y="34" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="22" font-weight="600" fill="#E6EDF3">Next.js · TypeScript · Supabase</text>
+<text class="l l3" x="2" y="34" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="22" font-weight="600" fill="#E6EDF3">Building morocco-kit, open-source tools for Morocco</text>
+</svg>

@@ -1,19 +1,8 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Safouane Latrache — Full-Stack Developer, Morocco">
-  <defs>
-    <linearGradient id="bg-dark" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#120f11"/>
-      <stop offset="100%" stop-color="#202226"/>
-    </linearGradient>
-    <linearGradient id="accent-dark" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#cc997f"/>
-      <stop offset="100%" stop-color="#e8b89c"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="280" fill="url(#bg-dark)"/>
-  <rect x="80" y="60" width="4" height="160" rx="2" fill="url(#accent-dark)"/>
-  <text x="110" y="145" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif" font-size="48" font-weight="700" fill="#fdfdfd" letter-spacing="-0.5px">Safouane Latrache</text>
-  <text x="110" y="200" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif" font-size="22" font-weight="400" fill="#cc997f" letter-spacing="0.5px">Full-Stack Developer</text>
-  <text x="110" y="232" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif" font-size="18" font-weight="400" fill="#a0a0a0" letter-spacing="0.3px">Morocco</text>
-  <circle cx="1100" cy="140" r="90" fill="none" stroke="url(#accent-dark)" stroke-width="2" opacity="0.4"/>
-  <circle cx="1100" cy="140" r="60" fill="none" stroke="#cc997f" stroke-width="1.5" opacity="0.6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Safouane Latrache, Full-Stack Developer, Morocco">
+<title>Safouane Latrache, Full-Stack Developer, Morocco</title>
+<rect width="900" height="200" rx="12" fill="#161B22" stroke="#30363D"/>
+<rect x="40" y="46" width="5" height="108" rx="2.5" fill="#3FB8A0"/>
+<text x="64" y="86" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="44" font-weight="700" fill="#E6EDF3">Safouane Latrache</text>
+<text x="64" y="123" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="22" font-weight="600" fill="#3FB8A0">Full-Stack Developer</text>
+<text x="64" y="154" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="17" fill="#8B949E">Next.js  ·  TypeScript  ·  Supabase  ·  Morocco</text>
 </svg>

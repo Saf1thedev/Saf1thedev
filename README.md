@@ -1,131 +1,69 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
-  <img alt="Safouane Latrache — Full-Stack Developer, Morocco" src="assets/banner-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Safouane Latrache, Full-Stack Developer, Morocco" src="assets/banner-dark.svg" width="100%">
 </picture>
 
-<p align="center">
-  <a href="README.md">English</a> ·
-  <a href="README.fr.md">Français</a> ·
-  <a href="README.ar.md">العربية</a>
-</p>
+**English** · [Français](README.fr.md)
 
-<p align="center">
-  <img src="assets/typing.svg" alt="Building web apps with Next.js, TypeScript & Supabase" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/typing-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/typing-light.svg">
+  <img alt="Full-stack developer in Morocco. Next.js, TypeScript, Supabase. Building morocco-kit." src="assets/typing-dark.svg" width="100%">
+</picture>
 
-# Safouane Latrache
+## About
 
-Full-stack developer in Morocco. Building web apps with Next.js, TypeScript & Supabase.
+Full-stack developer in Morocco. I build web apps with Next.js, TypeScript and Supabase, from the database to the interface.
 
 Clean architecture, type safety, and thoughtful UX. Small, useful work over vague claims.
 
-Open to freelance projects. <!-- TODO: add contact link when available -->
+Open to freelance projects.
 
 ## Stack
 
-**Public core** — proven by public repos:  
-TypeScript · Node.js · Git
-
-**Used in private projects** — not publicly verifiable:  
-React · Next.js · Supabase · Tailwind CSS · PostgreSQL
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="Public repos: TypeScript, Node.js, Git. Private projects: React, Next.js, Supabase, Tailwind CSS, PostgreSQL." src="assets/stack-dark.svg" width="100%">
+</picture>
 
 ## Shipping
 
-### <a href="https://github.com/Saf1thedev/morocco-kit">morocco-kit</a> ★ 1 · v0.1.0
+### [morocco-kit](https://github.com/Saf1thedev/morocco-kit) · [v0.1.0](https://github.com/Saf1thedev/morocco-kit/releases/tag/v0.1.0)
 
-TypeScript toolkit for Morocco: phone validation, public holidays, administrative regions, MAD formatting. Zero runtime dependencies. Works in Node, browsers, and edge runtimes.
+Open-source TypeScript toolkit for Morocco: phone validation, public holidays, administrative regions and MAD formatting. Zero runtime dependencies, every rule traced to an official source.
 
-[GitHub](https://github.com/Saf1thedev/morocco-kit) · [GitHub Release](https://github.com/Saf1thedev/morocco-kit/releases/tag/v0.1.0)
+```bash
+npm i github:Saf1thedev/morocco-kit#v0.1.0
+```
+
+<!-- TODO: add the live docs and playground link here once the site is deployed. -->
 
 ## Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="graphs/activity-dark.svg" />
-  <img alt="12-month contribution activity" src="graphs/activity-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="graphs/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="graphs/activity-light.svg">
+  <img alt="Weekly public contributions over the last 12 months" src="graphs/activity-dark.svg" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="graphs/languages-dark.svg" />
-  <img alt="Language breakdown of public repos" src="graphs/languages-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="graphs/languages-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="graphs/languages-light.svg">
+  <img alt="Language breakdown of public repositories" src="graphs/languages-dark.svg" width="100%">
 </picture>
 
 <picture>
-# Safouane Latrache
-
-Full-stack developer in Morocco. Building web apps with Next.js, TypeScript & Supabase.
-
-Clean architecture, type safety, and thoughtful UX. Small, useful work over vague claims.
-
-Open to freelance projects. <!-- TODO: add contact link when available -->
-
-## Stack
-
-**Public core** — proven by public repos:  
-TypeScript · Node.js · Git
-
-**Used in private projects** — not publicly verifiable:  
-React · Next.js · Supabase · Tailwind CSS · PostgreSQL
-
-## Shipping
-
-### <a href="https://github.com/Saf1thedev/morocco-kit">morocco-kit</a> ★ 1 · v0.1.0
-
-TypeScript toolkit for Morocco: phone validation, public holidays, administrative regions, MAD formatting. Zero runtime dependencies. Works in Node, browsers, and edge runtimes.
-
-[GitHub](https://github.com/Saf1thedev/morocco-kit) · [GitHub Release](https://github.com/Saf1thedev/morocco-kit/releases/tag/v0.1.0)
-
-## Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg" />
-  <img alt="12-month contribution activity" src="assets/activity-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="graphs/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="graphs/snake-light.svg">
+  <img alt="Contribution snake animation" src="graphs/snake-dark.svg" width="100%">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg" />
-  <img alt="Language breakdown of public repos" src="assets/languages-light.svg" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
-  <img alt="Contribution snake animation" src="assets/snake-light.svg" />
-</picture>
-
-*Graphs generated daily via GitHub Actions. No third-party widgets.*
+<sub>Graphs are generated daily by a GitHub Action. No third-party widgets.</sub>
 
 ## Contact
 
-No public social links yet. Open an issue on any repo to start a conversation. <!-- TODO: add professional email when available -->
+[LinkedIn](https://www.linkedin.com/in/safouane-latrache) · or open an issue on any of my repositories.
 
----
-
-<sub>Safouane Latrache · Morocco</sub>
-
-## Momentum
-
-<table>
-<tr><td align="center"><b>1</b><br/><sub>repos</sub></td><td align="center"><b>0</b><br/><sub>stars</sub></td><td align="center"><b>2</b><br/><sub>contributions</sub></td></tr>
-</table>
-
-## Start a conversation
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=saf1thedev&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F318455454%3Fu%3D106080e5c323ad8b8d072b89458974447a4907a7%26v%3D4" alt="saf1thedev social visual" />
-</p>
-
-<a href="https://github.com/saf1thedev">GitHub</a>
-
-<p align="center"><sub>Safouane Latrache · Founder profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
-  <source media="(prefers-color-scheme: dark)" srcset="graphs/snake-dark.svg" />
-  <img alt="Contribution snake animation" src="graphs/snake-light.svg" />
-</picture>
-
-*Graphs generated daily via GitHub Actions. No third-party widgets.*
-
-## Contact
-
-No public social links yet. Open an issue on any repo to start a conversation. <!-- TODO: add professional email when available -->
-
----
-
-<sub>Safouane Latrache · Morocco</sub>
+<!-- TODO: add a professional email here once it exists. -->

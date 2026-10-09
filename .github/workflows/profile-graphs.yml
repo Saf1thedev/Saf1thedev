@@ -1,0 +1,52 @@
+name: Profile graphs
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/gen_graphs.py"
+      - ".github/workflows/profile-graphs.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-graphs
+  cancel-in-progress: true
+
+jobs:
+  graphs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate activity and language charts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/gen_graphs.py
+
+      - name: Generate contribution snake
+        if: ${{ always() }}
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            graphs/snake-dark.svg?color_snake=#3FB8A0&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353
+            graphs/snake-light.svg?color_snake=#0F766E&color_dots=#EBEDF0,#9BE9A8,#40C463,#30A14E,#216E39
+
+      - name: Commit changes
+        if: ${{ always() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add graphs
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update profile graphs"
+            git push
+          fi
