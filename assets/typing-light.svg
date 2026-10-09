@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-label="Full-stack developer in Morocco. Next.js · TypeScript · Supabase. Building morocco-kit, open-source tools for Morocco">
-<title>Full-stack developer in Morocco. Next.js · TypeScript · Supabase. Building morocco-kit, open-source tools for Morocco</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-label="Full-stack developer. Next.js, TypeScript, Node.js, Python. Clean architecture, type safety, thoughtful UX.">
+<title>Full-stack developer. Next.js, TypeScript, Node.js, Python. Clean architecture, type safety, thoughtful UX.</title>
 <style>
 .l{opacity:0;animation:cycle 12s infinite}
 .l2{animation-delay:4s}
@@ -7,7 +7,7 @@
 @keyframes cycle{0%{opacity:0;transform:translateY(8px)}4%{opacity:1;transform:translateY(0)}30%{opacity:1;transform:translateY(0)}34%{opacity:0;transform:translateY(-8px)}100%{opacity:0}}
 @media (prefers-reduced-motion: reduce){.l{animation:none}.l1{opacity:1}}
 </style>
-<text class="l l1" x="2" y="34" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="22" font-weight="600" fill="#0F766E">Full-stack developer in Morocco</text>
-<text class="l l2" x="2" y="34" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="22" font-weight="600" fill="#1F2328">Next.js · TypeScript · Supabase</text>
-<text class="l l3" x="2" y="34" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="22" font-weight="600" fill="#1F2328">Building morocco-kit, open-source tools for Morocco</text>
+<text class="l l1" x="2" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Segoe UI Symbol',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#0F766E">Full-stack developer</text>
+<text class="l l2" x="2" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Segoe UI Symbol',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#1F2328">Next.js · TypeScript · Node.js · Python</text>
+<text class="l l3" x="2" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Segoe UI Symbol',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#1F2328">Clean architecture. Type safety. Thoughtful UX.</text>
 </svg>

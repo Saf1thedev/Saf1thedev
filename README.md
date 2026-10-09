@@ -1,32 +1,33 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Safouane Latrache, Full-Stack Developer, Morocco" src="assets/banner-dark.svg" width="100%">
+  <img alt="❅ ¡Saf1thedev! ❅ Full-Stack Developer" src="assets/banner-dark.svg" width="100%">
 </picture>
-
-**English** · [Français](README.fr.md)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/typing-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/typing-light.svg">
-  <img alt="Full-stack developer in Morocco. Next.js, TypeScript, Supabase. Building morocco-kit." src="assets/typing-dark.svg" width="100%">
+  <img alt="Full-stack developer. Next.js, TypeScript, Node.js, Python. Clean architecture, type safety, thoughtful UX." src="assets/typing-dark.svg" width="100%">
 </picture>
 
 ## About
 
-Full-stack developer in Morocco. I build web apps with Next.js, TypeScript and Supabase, from the database to the interface.
+Full-stack developer who takes a product from database schema to polished interface. I design and ship **type-safe**, **performant** and **accessible** web applications with **Next.js**, **TypeScript** and **PostgreSQL**.
 
-Clean architecture, type safety, and thoughtful UX. Small, useful work over vague claims.
+- 🏗️ Clean, maintainable architecture with end-to-end type safety
+- 🔐 Security and data integrity treated as defaults, not afterthoughts
+- 🎯 Small, well-documented tools that solve real problems
+- 🤝 Open to freelance projects and collaborations
 
-Open to freelance projects.
+## Languages & Tools
 
-## Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,html,css,postgres,bash&perline=7" alt="TypeScript, JavaScript, Python, HTML, CSS, PostgreSQL, Bash" />
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
-  <img alt="Public repos: TypeScript, Node.js, Git. Private projects: React, Next.js, Supabase, Tailwind CSS, PostgreSQL." src="assets/stack-dark.svg" width="100%">
-</picture>
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,supabase,git,vscode&perline=7" alt="React, Next.js, Node.js, Tailwind CSS, Supabase, Git, VS Code" />
+</p>
 
 ## Shipping
 
@@ -60,10 +61,11 @@ npm i github:Saf1thedev/morocco-kit#v0.1.0
   <img alt="Contribution snake animation" src="graphs/snake-dark.svg" width="100%">
 </picture>
 
-<sub>Graphs are generated daily by a GitHub Action. No third-party widgets.</sub>
+<sub>Activity graphs are generated daily by a GitHub Action.</sub>
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/safouane-latrache) · or open an issue on any of my repositories.
+- Open to project collaborations
+- You can reach me through: <a href="https://www.linkedin.com/in/safouane-latrache"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge" alt="LinkedIn" /></a>
 
-<!-- TODO: add a professional email here once it exists. -->
+<!-- TODO: add a professional email badge here once it exists. -->
