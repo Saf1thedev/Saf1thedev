@@ -14,10 +14,10 @@
 
 Full-stack developer who takes a product from database schema to polished interface. I design and ship **type-safe**, **performant** and **accessible** web applications with **Next.js**, **TypeScript** and **PostgreSQL**.
 
-- ⋆ Clean, maintainable architecture with end-to-end type safety
-- ⋆ Security and data integrity treated as defaults, not afterthoughts
-- ⋆ Small, well-documented tools that solve real problems
-- ⋆ Open to freelance projects and collaborations
+-  Clean, maintainable architecture with end-to-end type safety
+-  Security and data integrity treated as defaults, not afterthoughts
+-  Small, well-documented tools that solve real problems
+-  Open to freelance projects and collaborations
 
 ## Languages & Tools
 
